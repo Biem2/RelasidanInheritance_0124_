@@ -6,11 +6,11 @@ using namespace std;
 #include "ibu.h"
 
 int main() {
-    ibu* varIbu1 = new ibu("dini");
-    ibu* varIbu2 = new ibu("novi");
-    anak* varAnak1 = new anak("tono");
-    anak* varAnak2 = new anak("yanto");
-    anak* varAnak3 = new anak("jamal");
+    Ibu* varIbu1 = new Ibu("Icha");
+    Ibu* varIbu2 = new Ibu("Caca");
+    anak* varAnak1 = new anak("Jamal");
+    anak* varAnak2 = new anak("Sukujin");
+    anak* varAnak3 = new anak("Agus");
 
     varIbu1->tambahAnak(varAnak1);
     varIbu1->tambahAnak(varAnak2);
